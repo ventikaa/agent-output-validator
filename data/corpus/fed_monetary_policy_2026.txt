@@ -1,0 +1,16 @@
+Federal Reserve Monetary Policy — 2026
+Source: Federal Reserve Economic Data (FRED), St. Louis Fed
+
+FEDERAL FUNDS RATE (Effective):
+August 2026: 3.63%
+July 2026: 3.63%
+June 2026: 3.63%
+May 2026: 3.63%
+April 2026: 3.64%
+March 2026: 3.83%
+February 2026: 4.08%
+January 2026: 4.33%
+
+The federal funds rate declined from 4.33% in January 2026 to 3.63% in August 2026, reflecting the Federal Reserve's easing cycle that began in late 2025.
+
+The federal funds rate is the interest rate at which depository institutions trade federal funds (balances held at Federal Reserve Banks) with each other overnight. The Federal Reserve uses this rate as a key tool for monetary policy.

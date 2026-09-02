@@ -1,0 +1,24 @@
+SEC Marketing Rule — Rule 206(4)-1 Under the Investment Advisers Act of 1940
+Source: SEC.gov, as amended through 2024
+
+OVERVIEW:
+The SEC's marketing rule (Rule 206(4)-1) governs advertisements by investment advisers registered with the SEC. The amended rule became effective November 4, 2022.
+
+KEY REQUIREMENTS:
+1. All advertisements must be fair and balanced, presenting material risks alongside potential returns.
+2. Hypothetical performance presentations must include all relevant assumptions, risks, and limitations.
+3. Third-party ratings must disclose the methodology used and any compensation paid to the rating provider.
+4. Testimonials and endorsements require clear and prominent disclosure of material conflicts of interest.
+5. Net performance must accompany any presentation of gross performance, with equal prominence.
+
+RECORD-KEEPING:
+Advisers must retain copies of all advertisements and related records for a minimum of 5 years from the date of last use.
+
+COMPLIANCE REVIEW:
+All marketing materials must be reviewed and approved by a designated compliance officer prior to distribution.
+
+ENFORCEMENT:
+The SEC examined 312 investment advisers for marketing rule compliance in 2024.
+Deficiencies were found in 28% of examined firms.
+Penalties range from warning letters for minor first-time infractions to fines up to $250,000 per violation for material misrepresentations.
+Repeated or egregious violations can result in registration revocation.

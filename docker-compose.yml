@@ -1,0 +1,18 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file: .env
+    command: uvicorn src.api.server:app --host 0.0.0.0 --port 8000
+    volumes:
+      - ./data:/app/data
+
+  dashboard:
+    build: .
+    ports:
+      - "8501:8501"
+    env_file: .env
+    command: streamlit run src/ui/dashboard.py --server.port 8501 --server.headless true
+    volumes:
+      - ./data:/app/data

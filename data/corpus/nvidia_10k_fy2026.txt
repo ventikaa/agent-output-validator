@@ -1,0 +1,48 @@
+NVIDIA Corporation — 10-K Annual Report, Fiscal Year 2026 (ended January 25, 2026)
+Source: SEC Filing, Accession No. 0001045810-26-000021, Filed February 25, 2026
+
+CONSOLIDATED STATEMENTS OF INCOME (GAAP)
+
+Full-Year Fiscal 2026:
+Total revenue: $215.938 billion, up 65% year-over-year.
+Cost of revenue: $62.372 billion.
+Gross profit: $153.566 billion. Gross margin: 71.1%.
+Operating expenses: $23.179 billion (R&D: $16.345 billion; SG&A: $6.834 billion).
+Operating income: $130.387 billion.
+Net income: $120.067 billion.
+Diluted earnings per share: $4.90.
+
+Fourth Quarter Fiscal 2026 (Q4 FY26):
+Revenue: $68.127 billion, up 73% YoY and 20% quarter-over-quarter.
+Net income: $42.960 billion.
+Diluted EPS: $1.76.
+Gross margin: 75.0%.
+Operating income: $44.299 billion.
+
+REVENUE BY SEGMENT (Full Year FY2026):
+Data Center: $193.7 billion, up 68% YoY.
+Gaming: $16.0 billion, up 41% YoY.
+Professional Visualization: $3.2 billion, up 70% YoY.
+Automotive: $2.3 billion, up 39% YoY.
+
+REVENUE BY SEGMENT (Q4 FY26):
+Data Center: $62.3 billion, up 75% YoY and 22% QoQ.
+Gaming: $3.7 billion, up 47% YoY.
+Professional Visualization: $1.3 billion, up 159% YoY.
+Automotive: $604 million, up 6% YoY.
+
+BALANCE SHEET (as of January 25, 2026):
+Cash and cash equivalents: $10.605 billion.
+Total assets: $206.803 billion.
+Shareholders' equity: $157.293 billion.
+
+SHAREHOLDER RETURNS (FY2026):
+Share repurchases and dividends returned to shareholders: $41.1 billion.
+
+HEADCOUNT:
+Approximately 42,000 employees across 38 countries.
+31,000 engaged in research and development.
+11,000 in sales, marketing, operations, and administrative roles.
+
+MARKET CAPITALIZATION (as of July 25, 2025): approximately $4.0 trillion.
+Shares outstanding (as of February 20, 2026): 24.3 billion.

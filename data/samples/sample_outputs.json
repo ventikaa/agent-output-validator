@@ -1,0 +1,62 @@
+[
+  {
+    "id": "nvidia-correct-001",
+    "agent_name": "EarningsAgent",
+    "content": "NVIDIA reported fiscal year 2026 total revenue of $215.938 billion, up 65% year-over-year. Data Center was the dominant segment at $193.7 billion, growing 68% YoY. Full-year diluted EPS came in at $4.90, with net income of $120.067 billion. Gross margin for the full year was 71.1%.",
+    "metadata": {"expected_verdict": "fully_supported", "hallucination_count": 0, "source": "nvidia_10k_fy2026.txt"}
+  },
+  {
+    "id": "nvidia-hallucinated-001",
+    "agent_name": "EarningsAgent",
+    "content": "NVIDIA's Q4 FY2026 revenue reached $68.127 billion, up 73% year-over-year. The Data Center segment generated $58.1 billion in the quarter. Gaming revenue was $4.2 billion, up 47% YoY. Gross margin improved to 78.3%. The company now employs approximately 48,000 people across 42 countries.",
+    "metadata": {"expected_verdict": "partially_hallucinated", "hallucination_count": 4, "notes": "Data Center was $62.3B not $58.1B; Gaming was $3.7B not $4.2B; gross margin was 75.0% not 78.3%; headcount is 42K across 38 countries, not 48K across 42"}
+  },
+  {
+    "id": "microsoft-correct-001",
+    "agent_name": "PortSummarizer",
+    "content": "Microsoft delivered FY2026 revenue of $331.8 billion, an 18% increase year-over-year. Net income reached $133.7 billion, up 31% YoY, with diluted EPS of $17.95. The Intelligent Cloud segment generated $137.8 billion for the full year, while Azure grew 43%.",
+    "metadata": {"expected_verdict": "fully_supported", "hallucination_count": 0, "source": "microsoft_10k_fy2026.txt"}
+  },
+  {
+    "id": "microsoft-hallucinated-001",
+    "agent_name": "PortSummarizer",
+    "content": "Microsoft's Q4 FY2026 revenue was $90.0 billion. The Intelligent Cloud segment led at $42.1 billion, up 32% YoY. More Personal Computing grew 6% to $15.3 billion. Azure revenue growth accelerated to 51% year-over-year. Microsoft 365 Copilot surpassed 45 million paid seats.",
+    "metadata": {"expected_verdict": "partially_hallucinated", "hallucination_count": 4, "notes": "Intelligent Cloud was $39.3B not $42.1B; More Personal Computing was DOWN 4% to $12.9B not up 6% to $15.3B; Azure grew 43% not 51%; Copilot had 30M+ seats not 45M"}
+  },
+  {
+    "id": "apple-correct-001",
+    "agent_name": "EarningsAgent",
+    "content": "Apple reported Q4 FY2025 revenue of $102.5 billion, up 8% year-over-year. Full fiscal year 2025 revenue reached $416 billion. The company declared a quarterly dividend of $0.26 per share. iPhone achieved a September quarter revenue record, and Services revenue hit an all-time high.",
+    "metadata": {"expected_verdict": "fully_supported", "hallucination_count": 0, "source": "apple_10k_fy2025.txt"}
+  },
+  {
+    "id": "apple-hallucinated-001",
+    "agent_name": "EarningsAgent",
+    "content": "Apple's Q4 FY2025 revenue was $102.5 billion. Annual revenue for FY2025 totaled $428 billion, up 12% year-over-year. Diluted EPS reached $2.15 for the quarter, representing a 20% increase. The company raised its quarterly dividend to $0.30 per share.",
+    "metadata": {"expected_verdict": "partially_hallucinated", "hallucination_count": 3, "notes": "Annual revenue was $416B not $428B; EPS was $1.85 not $2.15 and growth was 13% not 20%; dividend was $0.26 not $0.30"}
+  },
+  {
+    "id": "fed-correct-001",
+    "agent_name": "MarketReader",
+    "content": "The federal funds rate stood at 3.63% in August 2026, unchanged from July. The rate has declined from 4.33% in January 2026, reflecting the Federal Reserve's easing cycle. The rate dropped below 4% in March 2026 when it reached 3.83%.",
+    "metadata": {"expected_verdict": "fully_supported", "hallucination_count": 0, "source": "fed_monetary_policy_2026.txt"}
+  },
+  {
+    "id": "fed-hallucinated-001",
+    "agent_name": "MarketReader",
+    "content": "The federal funds rate in August 2026 is 3.63%. The Fed began its cutting cycle in January 2026 from a starting rate of 5.25%. The rate dropped sharply to 3.25% by June before stabilizing. The easing has been the most aggressive since the 2020 pandemic response.",
+    "metadata": {"expected_verdict": "partially_hallucinated", "hallucination_count": 3, "notes": "Starting rate was 4.33% not 5.25%; June rate was 3.63% not 3.25%; characterization of 'most aggressive since 2020' is unsupported"}
+  },
+  {
+    "id": "compliance-fabricated-001",
+    "agent_name": "CompliQA",
+    "content": "Under SEC Rule 206(4)-1, all investment advisers must submit marketing materials to the SEC for pre-approval within 15 business days of first use. The rule mandates that AI-generated content carry a visible disclaimer label. In 2024, the SEC examined 500 advisers and found violations in 42% of firms, with average fines of $750,000 per violation.",
+    "metadata": {"expected_verdict": "mostly_fabricated", "hallucination_count": 5, "notes": "No pre-approval submission requirement exists; no 15-day rule; no AI disclaimer mandate; SEC examined 312 not 500 firms; deficiency rate was 28% not 42%; max fines are $250K not $750K average"}
+  },
+  {
+    "id": "nvidia-fabricated-001",
+    "agent_name": "EarningsAgent",
+    "content": "NVIDIA announced a 3-for-1 stock split effective March 2026. The company's Robotics segment generated $8.4 billion in Q4 FY2026, making it the third-largest business unit. NVIDIA's operating margin contracted to 52% as R&D spending surged to $28 billion for the full year. CEO Pat Gelsinger highlighted the company's pivot to quantum computing infrastructure.",
+    "metadata": {"expected_verdict": "fully_fabricated", "hallucination_count": 5, "notes": "No stock split announced; no Robotics segment exists; operating margin is ~60% not 52%; R&D was $16.345B not $28B; CEO is Jensen Huang not Pat Gelsinger (who was Intel CEO)"}
+  }
+]

@@ -1,0 +1,33 @@
+Microsoft Corporation — 10-K Annual Report, Fiscal Year 2026 (ended June 30, 2026)
+Source: SEC Filing, Accession No. 0001193125-26-323660, Filed July 29, 2026
+
+CONSOLIDATED STATEMENTS OF INCOME (GAAP)
+
+Full-Year Fiscal 2026:
+Total revenue: $331.8 billion, up 18% year-over-year (16% in constant currency).
+Operating income: $155.2 billion, up 21% YoY.
+Net income: $133.7 billion, up 31% YoY.
+Diluted earnings per share: $17.95, up 32% YoY.
+
+Fourth Quarter Fiscal 2026 (Q4 FY26, ended June 30, 2026):
+Revenue: $90.0 billion, up 18% YoY.
+Operating income: $40.6 billion, up 18% YoY.
+Net income: $35.8 billion, up 31% YoY.
+Diluted EPS: $4.81, up 32% YoY.
+Gross margin: $60.5 billion.
+
+REVENUE BY SEGMENT (Q4 FY26):
+Intelligent Cloud: $39.3 billion, up 32% YoY (31% in constant currency).
+Productivity and Business Processes: $37.8 billion, up 14% YoY.
+More Personal Computing: $12.9 billion, down 4% YoY.
+
+REVENUE BY SEGMENT (Full Year FY26):
+Intelligent Cloud: $137.8 billion.
+Productivity and Business Processes: $140.0 billion.
+More Personal Computing: $54.1 billion.
+
+KEY METRICS:
+Azure revenue growth: 43% YoY.
+Microsoft Cloud revenue (Q4): $59.3 billion, up 27% YoY.
+Microsoft 365 Copilot: over 30 million paid seats.
+Commercial remaining performance obligation: $678 billion, up 84% YoY.
