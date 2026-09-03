@@ -5,20 +5,38 @@ CONSOLIDATED STATEMENTS OF INCOME
 
 Full Fiscal Year 2025:
 Total revenue: $416 billion.
-Diluted earnings per share: $1.85 (adjusted, Q4 FY2025).
-EPS growth: 13% increase YoY (adjusted) in Q4.
-Annual EPS growth: double-digit.
+Annual EPS growth: double-digit year-over-year.
+
+First Quarter Fiscal 2025 (Q1 FY25, ended December 28, 2024):
+Revenue: $124.3 billion, up 4% year-over-year.
+Diluted EPS: $2.40, up 10% YoY.
+All-time records for total company revenue and EPS.
+Services revenue reached a new all-time high.
+Cash returned to shareholders: over $30 billion during the quarter.
+Quarterly dividend: $0.25 per share.
+
+Third Quarter Fiscal 2025 (Q3 FY25, ended June 28, 2025):
+Revenue: $94.0 billion, up 10% year-over-year.
+Diluted EPS: $1.57, up 12% YoY.
+June quarter records for total company revenue, iPhone revenue, and EPS.
+Services revenue reached a new all-time high.
+Double-digit growth in iPhone, Mac, and Services.
+Quarterly dividend: $0.26 per share.
 
 Fourth Quarter Fiscal 2025 (Q4 FY25, ended September 27, 2025):
 Revenue: $102.5 billion, up 8% year-over-year.
-Diluted EPS: $1.85 (adjusted).
+Diluted EPS: $1.85 (adjusted), up 13% YoY.
 
-SEGMENT PERFORMANCE:
-iPhone revenue: September quarter record achieved.
-Services revenue: all-time high reached.
+SEGMENT PERFORMANCE (FY2025):
+iPhone revenue: September quarter record achieved (Q4), June quarter record achieved (Q3).
+Services revenue: all-time high reached in Q1, Q3, and Q4.
+Mac revenue: double-digit growth in Q3.
 Installed base of active devices: new all-time high across all product categories and all geographic segments.
 
 SHAREHOLDER RETURNS:
-Quarterly dividend: $0.26 per share, payable November 13, 2025.
+Q4 FY2025 quarterly dividend: $0.26 per share, payable November 13, 2025.
+Q3 FY2025 quarterly dividend: $0.26 per share.
+Q1 FY2025 quarterly dividend: $0.25 per share.
+Q1 FY2025 cash returned to shareholders: over $30 billion.
 
-Note: Apple does not publicly break out individual segment revenue figures (Mac, iPad, Wearables, Home and Accessories) in press releases. Detailed segment data is available in the 10-K filing's financial statements.
+Note: Apple does not publicly break out individual segment revenue dollar figures in press releases. Detailed segment revenue data (iPhone, Mac, iPad, Wearables/Home/Accessories, Services) is available in the 10-K filing's financial statements.

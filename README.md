@@ -42,7 +42,7 @@ The validation corpus contains **real SEC filings and public financial data**:
 - Federal Reserve monetary policy data (FRED)
 - SEC Marketing Rule 206(4)-1
 
-10 sample agent outputs test the pipeline against this data — 4 fully correct, 4 with specific wrong numbers, and 2 heavily fabricated.
+16 sample agent outputs test the pipeline against this data — 7 fully correct, 7 with specific wrong numbers, and 2 heavily fabricated. Includes cross-company comparison edge cases.
 
 ## Setup
 
@@ -66,7 +66,7 @@ cp .env.example .env  # Add your API keys
 # Validate a single sample
 python run.py nvidia-correct-001
 
-# Validate all 10 samples
+# Validate all 16 samples
 python run.py
 ```
 
@@ -139,6 +139,16 @@ Validating: nvidia-hallucinated-001 (EarningsAgent)
 - **Data models:** Pydantic v2
 - **Testing:** pytest
 
+## Evaluation
+
+Run the full evaluation harness to measure detection accuracy against labeled samples:
+
+```bash
+python evaluate.py
+```
+
+Outputs precision, recall, F1, escalation accuracy, and per-sample results to `data/evaluation_results.json`.
+
 ## Tests
 
 ```bash
@@ -165,8 +175,9 @@ src/
     dashboard.py            # Streamlit dashboard
 data/
   corpus/                   # Real SEC filings + financial data
-  samples/                  # 10 test agent outputs
+  samples/                  # 16 labeled test agent outputs
 tests/                      # pytest suite
+evaluate.py                 # Precision/recall/F1 evaluation harness
 ```
 
 ## Gap Analysis

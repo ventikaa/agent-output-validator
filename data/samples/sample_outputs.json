@@ -12,6 +12,12 @@
     "metadata": {"expected_verdict": "partially_hallucinated", "hallucination_count": 4, "notes": "Data Center was $62.3B not $58.1B; Gaming was $3.7B not $4.2B; gross margin was 75.0% not 78.3%; headcount is 42K across 38 countries, not 48K across 42"}
   },
   {
+    "id": "nvidia-correct-002",
+    "agent_name": "PortSummarizer",
+    "content": "NVIDIA's Q4 FY2026 Professional Visualization segment delivered $1.3 billion in revenue, up 159% year-over-year. Automotive generated $604 million, up 6% YoY. For the full year, Gaming reached $16.0 billion (+41% YoY) and Professional Visualization hit $3.2 billion (+70% YoY).",
+    "metadata": {"expected_verdict": "fully_supported", "hallucination_count": 0, "source": "nvidia_10k_fy2026.txt"}
+  },
+  {
     "id": "microsoft-correct-001",
     "agent_name": "PortSummarizer",
     "content": "Microsoft delivered FY2026 revenue of $331.8 billion, an 18% increase year-over-year. Net income reached $133.7 billion, up 31% YoY, with diluted EPS of $17.95. The Intelligent Cloud segment generated $137.8 billion for the full year, while Azure grew 43%.",
@@ -22,6 +28,12 @@
     "agent_name": "PortSummarizer",
     "content": "Microsoft's Q4 FY2026 revenue was $90.0 billion. The Intelligent Cloud segment led at $42.1 billion, up 32% YoY. More Personal Computing grew 6% to $15.3 billion. Azure revenue growth accelerated to 51% year-over-year. Microsoft 365 Copilot surpassed 45 million paid seats.",
     "metadata": {"expected_verdict": "partially_hallucinated", "hallucination_count": 4, "notes": "Intelligent Cloud was $39.3B not $42.1B; More Personal Computing was DOWN 4% to $12.9B not up 6% to $15.3B; Azure grew 43% not 51%; Copilot had 30M+ seats not 45M"}
+  },
+  {
+    "id": "microsoft-hallucinated-002",
+    "agent_name": "EarningsAgent",
+    "content": "Microsoft's commercial remaining performance obligation reached $678 billion in Q4 FY2026, up 84% year-over-year. Full-year operating income was $155.2 billion. However, the Productivity and Business Processes segment declined 2% to $128.5 billion, as enterprise Office license renewals slowed.",
+    "metadata": {"expected_verdict": "partially_hallucinated", "hallucination_count": 2, "notes": "P&BP was $140.0B not $128.5B, and it did not decline — the segment is not described as declining in the filing; CRPO and operating income figures are correct"}
   },
   {
     "id": "apple-correct-001",
@@ -36,6 +48,18 @@
     "metadata": {"expected_verdict": "partially_hallucinated", "hallucination_count": 3, "notes": "Annual revenue was $416B not $428B; EPS was $1.85 not $2.15 and growth was 13% not 20%; dividend was $0.26 not $0.30"}
   },
   {
+    "id": "apple-correct-002",
+    "agent_name": "EarningsAgent",
+    "content": "Apple's Q1 FY2025 holiday quarter revenue reached $124.3 billion, up 4% year-over-year, setting all-time records for total company revenue and EPS. Diluted EPS was $2.40, up 10% YoY. The company returned over $30 billion to shareholders during the quarter.",
+    "metadata": {"expected_verdict": "fully_supported", "hallucination_count": 0, "source": "apple_10k_fy2025.txt"}
+  },
+  {
+    "id": "apple-hallucinated-002",
+    "agent_name": "MarketReader",
+    "content": "Apple's Q3 FY2025 revenue was $94.0 billion, up 10% year-over-year. Diluted EPS came in at $1.72, up 15% YoY. iPad revenue saw double-digit growth in the quarter, while Mac revenue declined 3%. The quarterly dividend remained at $0.25 per share.",
+    "metadata": {"expected_verdict": "partially_hallucinated", "hallucination_count": 3, "notes": "EPS was $1.57 not $1.72 and growth was 12% not 15%; Mac had double-digit GROWTH not a decline; Q3 dividend was $0.26 not $0.25"}
+  },
+  {
     "id": "fed-correct-001",
     "agent_name": "MarketReader",
     "content": "The federal funds rate stood at 3.63% in August 2026, unchanged from July. The rate has declined from 4.33% in January 2026, reflecting the Federal Reserve's easing cycle. The rate dropped below 4% in March 2026 when it reached 3.83%.",
@@ -48,6 +72,12 @@
     "metadata": {"expected_verdict": "partially_hallucinated", "hallucination_count": 3, "notes": "Starting rate was 4.33% not 5.25%; June rate was 3.63% not 3.25%; characterization of 'most aggressive since 2020' is unsupported"}
   },
   {
+    "id": "compliance-correct-001",
+    "agent_name": "CompliQA",
+    "content": "Under SEC Rule 206(4)-1, all marketing materials must be reviewed by a designated compliance officer prior to distribution. Advisers must retain copies of advertisements for a minimum of 5 years. The SEC examined 312 investment advisers for marketing rule compliance in 2024 and found deficiencies in 28% of examined firms. Penalties can reach up to $250,000 per violation.",
+    "metadata": {"expected_verdict": "fully_supported", "hallucination_count": 0, "source": "sec_marketing_rule_206.txt"}
+  },
+  {
     "id": "compliance-fabricated-001",
     "agent_name": "CompliQA",
     "content": "Under SEC Rule 206(4)-1, all investment advisers must submit marketing materials to the SEC for pre-approval within 15 business days of first use. The rule mandates that AI-generated content carry a visible disclaimer label. In 2024, the SEC examined 500 advisers and found violations in 42% of firms, with average fines of $750,000 per violation.",
@@ -58,5 +88,11 @@
     "agent_name": "EarningsAgent",
     "content": "NVIDIA announced a 3-for-1 stock split effective March 2026. The company's Robotics segment generated $8.4 billion in Q4 FY2026, making it the third-largest business unit. NVIDIA's operating margin contracted to 52% as R&D spending surged to $28 billion for the full year. CEO Pat Gelsinger highlighted the company's pivot to quantum computing infrastructure.",
     "metadata": {"expected_verdict": "fully_fabricated", "hallucination_count": 5, "notes": "No stock split announced; no Robotics segment exists; operating margin is ~60% not 52%; R&D was $16.345B not $28B; CEO is Jensen Huang not Pat Gelsinger (who was Intel CEO)"}
+  },
+  {
+    "id": "cross-company-hallucinated-001",
+    "agent_name": "PortSummarizer",
+    "content": "In Q4 FY2026, NVIDIA's Data Center revenue of $62.3 billion exceeded Microsoft's entire Intelligent Cloud segment at $39.3 billion. Apple's Q1 FY2025 holiday quarter revenue of $124.3 billion was the highest single-quarter revenue among the three companies. Microsoft's full-year net income of $133.7 billion was the highest, surpassing NVIDIA's $108 billion.",
+    "metadata": {"expected_verdict": "partially_hallucinated", "hallucination_count": 1, "notes": "NVIDIA's net income was $120.067B not $108B; the cross-company comparisons for Data Center vs Intelligent Cloud and Apple Q1 revenue are accurate"}
   }
 ]

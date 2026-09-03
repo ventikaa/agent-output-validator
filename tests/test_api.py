@@ -6,7 +6,7 @@ def test_sample_outputs_valid():
     samples_path = Path("data/samples/sample_outputs.json")
     assert samples_path.exists()
     samples = json.loads(samples_path.read_text())
-    assert len(samples) == 10
+    assert len(samples) == 16
 
     for s in samples:
         assert "id" in s
