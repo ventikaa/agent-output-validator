@@ -8,6 +8,12 @@ Enterprise AI agent platforms (like [Transient.AI's DAF](https://transient.ai)) 
 
 This project fills that gap: a 4-agent validation swarm that catches errors before they reach clients.
 
+## Architecture
+
+<p align="center">
+  <img src="docs/architecture.svg" alt="Pipeline Architecture" width="850"/>
+</p>
+
 ## How It Works
 
 ```
