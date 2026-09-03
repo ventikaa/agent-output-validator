@@ -4,7 +4,7 @@ A multi-agent swarm that validates AI agent outputs for hallucinations, unsuppor
 
 ## Why This Exists
 
-Enterprise AI agent platforms (like [Transient.AI's DAF](https://transient.ai)) deploy dozens of agents that generate financial analyses, compliance summaries, and market reports. But **none of them validate what other agents say.** A hallucinated revenue number in a client-facing report is a compliance violation.
+Enterprise AI agent platforms deploy dozens of agents that generate financial analyses, compliance summaries, and market reports. But **none of them validate what other agents say.** A hallucinated revenue number in a client-facing report is a compliance violation.
 
 This project fills that gap: a 4-agent validation swarm that catches errors before they reach clients.
 
